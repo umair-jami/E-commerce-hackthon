@@ -44,37 +44,62 @@ export default function Navbar() {
     <nav
       className={` ${poppins.className} container mx-auto flex flex-nowrap items-center justify-between h-[5rem] sticky top-0 z-30 bg-white px-4 sm:px-6 md:px-12 shadow-md `}
     >
-      <div className="flex items-center gap-4 w-auto md:w-auto">
+      <div className="flex items-center justify-between gap-4 w-full md:w-auto">
+        {/* Menu Toggle Button */}
         <button
-          className="text-xl md:hidden focus:outline-none"
+          className="text-2xl md:hidden focus:outline-none z-50"
           aria-label="Toggle Menu"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? "✖" : "☰"}
         </button>
+
+        {/* Logo */}
         <Link href="/">
           <h1 className="text-xl sm:text-3xl font-black">SHOP.CO</h1>
         </Link>
       </div>
 
+      {/* Navigation Links */}
       <div
         className={`${
-          menuOpen ? "flex" : "hidden"
-        } flex-col md:flex md:flex-row md:gap-8 items-center w-full md:w-auto mt-4 md:mt-0`}
+          menuOpen
+            ? "fixed inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center z-40"
+            : "hidden"
+        } md:flex md:flex-row md:gap-8 md:relative md:bg-transparent md:inset-auto md:z-auto`}
       >
-        <Link href="/" className="hover:text-gray-700">
-          <select>
+        {/* Shop Link */}
+        <Link
+          href="/"
+          className="text-white md:text-black hover:text-gray-300 md:hover:text-gray-700 text-lg mb-4 md:mb-0"
+        >
+          <select className="bg-transparent text-white md:text-black">
             <option>Shop</option>
           </select>
         </Link>
-        <Link href="/components/carts" className="hover:text-gray-700">
+
+        {/* Carts Link */}
+        <Link
+          href="/components/carts"
+          className="text-white md:text-black hover:text-gray-300 md:hover:text-gray-700 text-lg mb-4 md:mb-0"
+        >
           Carts
         </Link>
-        <Link href="/components/casual" className="hover:text-gray-700">
+
+        {/* Casual Link */}
+        <Link
+          href="/components/casual"
+          className="text-white md:text-black hover:text-gray-300 md:hover:text-gray-700 text-lg mb-4 md:mb-0"
+        >
           Casual
         </Link>
-        <Link href="/components/tshirts" className="hover:text-gray-700">
-          T-Shirst
+
+        {/* T-Shirts Link */}
+        <Link
+          href="/components/tshirts"
+          className="text-white md:text-black hover:text-gray-300 md:hover:text-gray-700 text-lg mb-4 md:mb-0"
+        >
+          T-Shirts
         </Link>
       </div>
 
@@ -94,7 +119,7 @@ export default function Navbar() {
         </div>
 
         {/* Cart and User Dropdown */}
-        <div className="flex flex-row items-center gap-4">
+        <div className="flex items-center gap-4">
           <Image
             src={cart}
             alt="Cart"
