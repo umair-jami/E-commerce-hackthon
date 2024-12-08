@@ -52,7 +52,9 @@ export default function Navbar() {
         >
           {menuOpen ? "✖" : "☰"}
         </button>
-        <h1 className="text-xl sm:text-3xl font-black">SHOP.CO</h1>
+        <Link href="/">
+          <h1 className="text-xl sm:text-3xl font-black">SHOP.CO</h1>
+        </Link>
       </div>
 
       <div
@@ -92,7 +94,7 @@ export default function Navbar() {
         </div>
 
         {/* Cart and User Dropdown */}
-        <div className="flex sm:flex-row flex-col items-center gap-4">
+        <div className="flex flex-row items-center gap-4">
           <Image
             src={cart}
             alt="Cart"

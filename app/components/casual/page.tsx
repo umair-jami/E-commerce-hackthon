@@ -285,13 +285,10 @@ export default function page() {
                     <p className="text-Text1 ml-2">5.0/5</p>
                   </div>
                   <p className="text-Secondary2 text-xl font-medium">
-                    $120{" "}
+                    $60{" "}
                     <span className="text-Text1 line-through text-sm">
                       $160
                     </span>{" "}
-                    <span className="text-red bg-redbg p-1 rounded-md text-sm">
-                      -20%
-                    </span>
                   </p>
                 </div>
               </div>
@@ -316,12 +313,12 @@ export default function page() {
                     <p className="text-Text1 ml-2">5.0/5</p>
                   </div>
                   <p className="text-Secondary2 text-xl font-medium">
-                    $120{" "}
+                    $70{" "}
                     <span className="text-Text1 line-through text-sm">
                       $160
                     </span>{" "}
                     <span className="text-red bg-redbg p-1 rounded-md text-sm">
-                      -20%
+                      -60%
                     </span>
                   </p>
                 </div>
@@ -336,7 +333,7 @@ export default function page() {
                   />
                 </div>
                 <div className="mt-2">
-                  <p>SLEEVE STRIPED T-SHIRT</p>
+                  <p>VERTICAL STRIPED SHIRT</p>
                   <div className="flex items-center">
                     <Image
                       src={fourhalfstar}
@@ -346,12 +343,12 @@ export default function page() {
                     <p className="text-Text1 ml-2">5.0/5</p>
                   </div>
                   <p className="text-Secondary2 text-xl font-medium">
-                    $120{" "}
+                    $320{" "}
                     <span className="text-Text1 line-through text-sm">
-                      $160
+                      $470
                     </span>{" "}
                     <span className="text-red bg-redbg p-1 rounded-md text-sm">
-                      -20%
+                      -50%
                     </span>
                   </p>
                 </div>
@@ -367,7 +364,7 @@ export default function page() {
                   />
                 </div>
                 <div className="mt-2">
-                  <p>SLEEVE STRIPED T-SHIRT</p>
+                  <p>COURAGE GRAPHIC T-SHIRT</p>
                   <div className="flex items-center">
                     <Image
                       src={fourhalfstar}
@@ -377,12 +374,12 @@ export default function page() {
                     <p className="text-Text1 ml-2">5.0/5</p>
                   </div>
                   <p className="text-Secondary2 text-xl font-medium">
-                    $120{" "}
+                    $180{" "}
                     <span className="text-Text1 line-through text-sm">
-                      $160
+                      $190
                     </span>{" "}
                     <span className="text-red bg-redbg p-1 rounded-md text-sm">
-                      -20%
+                      -10%
                     </span>
                   </p>
                 </div>
@@ -397,7 +394,7 @@ export default function page() {
                   />
                 </div>
                 <div className="mt-2">
-                  <p>SLEEVE STRIPED T-SHIRT</p>
+                  <p>LOOSE FIT BERMUDA SHORTS</p>
                   <div className="flex items-center">
                     <Image
                       src={fourhalfstar}
@@ -407,12 +404,12 @@ export default function page() {
                     <p className="text-Text1 ml-2">5.0/5</p>
                   </div>
                   <p className="text-Secondary2 text-xl font-medium">
-                    $120{" "}
+                    $10{" "}
                     <span className="text-Text1 line-through text-sm">
-                      $160
+                      $150
                     </span>{" "}
                     <span className="text-red bg-redbg p-1 rounded-md text-sm">
-                      -20%
+                      -30%
                     </span>
                   </p>
                 </div>
@@ -428,7 +425,7 @@ export default function page() {
                   />
                 </div>
                 <div className="mt-2">
-                  <p>SLEEVE STRIPED T-SHIRT</p>
+                  <p>One Life Graphic T-shirt</p>
                   <div className="flex items-center">
                     <Image
                       src={fourhalfstar}
@@ -438,12 +435,12 @@ export default function page() {
                     <p className="text-Text1 ml-2">5.0/5</p>
                   </div>
                   <p className="text-Secondary2 text-xl font-medium">
-                    $120{" "}
+                    $220{" "}
                     <span className="text-Text1 line-through text-sm">
-                      $160
+                      $360
                     </span>{" "}
                     <span className="text-red bg-redbg p-1 rounded-md text-sm">
-                      -20%
+                      -40%
                     </span>
                   </p>
                 </div>
