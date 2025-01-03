@@ -1,14 +1,14 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
-import searchIcon from "../../assets/navphoto/search.png";
-import cart from "../../assets/navphoto/cart.png";
-import user from "../../assets/navphoto/user.png";
-import cancel from "../../assets/navphoto/cancel.png";
-import review from "../../assets/navphoto/review.png";
-import order from "../../assets/navphoto/order.png";
-import logout from "../../assets/navphoto/logout.png";
-import manage from "../../assets/navphoto/manage.png";
+import searchIcon from "@/public/assets/navphoto/search.png";
+import cart from "@/public/assets/navphoto/cart.png";
+import user from "@/public/assets/navphoto/user.png";
+import cancel from "@/public/assets/navphoto/cancel.png";
+import review from "@/public/assets/navphoto/review.png";
+import order from "@/public/assets/navphoto/order.png";
+import logout from "@/public/assets/navphoto/logout.png";
+import manage from "@/public/assets/navphoto/manage.png";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { Poppins } from "next/font/google";
@@ -73,14 +73,12 @@ export default function Navbar() {
           href="/"
           className="text-white md:text-black hover:text-gray-300 md:hover:text-gray-700 text-lg mb-4 md:mb-0"
         >
-          <select className="bg-transparent text-white md:text-black">
-            <option>Shop</option>
-          </select>
+          Shop
         </Link>
 
         {/* Carts Link */}
         <Link
-          href="/components/carts"
+          href="/components/Carts"
           className="text-white md:text-black hover:text-gray-300 md:hover:text-gray-700 text-lg mb-4 md:mb-0"
         >
           Carts
@@ -88,7 +86,7 @@ export default function Navbar() {
 
         {/* Casual Link */}
         <Link
-          href="/components/casual"
+          href="/components/Casual"
           className="text-white md:text-black hover:text-gray-300 md:hover:text-gray-700 text-lg mb-4 md:mb-0"
         >
           Casual
@@ -96,7 +94,7 @@ export default function Navbar() {
 
         {/* T-Shirts Link */}
         <Link
-          href="/components/tshirts"
+          href="/components/Tshirts"
           className="text-white md:text-black hover:text-gray-300 md:hover:text-gray-700 text-lg mb-4 md:mb-0"
         >
           T-Shirts

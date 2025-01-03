@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Offer from "./components/offer/page";
+import Navbar from "./components/navbar/page";
+import Footer from "./components/footer/page";
 
 const icon="/shopping.png"
 
@@ -33,7 +36,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Offer/>
+        <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

@@ -1,23 +1,20 @@
 import { Poppins } from "next/font/google";
-import img1 from "../../assets/tshirst/image 1.png";
-import img2 from "../../assets/tshirst/image 2.png";
-import img3 from "../../assets/tshirst/image 5.png";
-import img4 from "../../assets/tshirst/image 6.png";
-import c3 from "../../assets/tshirst/c3.png";
-import c2 from "../../assets/tshirst/c2.png";
-import c1 from "../../assets/tshirst/c1.png";
-import plus from "../../assets/tshirst/plus.png";
-import minus from "../../assets/tshirst/minus.png";
-import fiveStart from "../../assets/new Arrivals/Five star.png";
-import fourhalfstar from "../../assets/new Arrivals/Four Half Star.png";
-import verified from "../../assets/dress/greentick.png";
-import filter from "../../assets/tshirst/color.png";
+import img1 from "@/public/assets/tshirst/image 1.png";
+import img2 from "@/public/assets/tshirst/image 2.png";
+import img3 from "@/public/assets/tshirst/image 5.png";
+import img4 from "@/public/assets/tshirst/image 6.png";
+import c3 from "@/public/assets/tshirst/c3.png";
+import c2 from "@/public/assets/tshirst/c2.png";
+import c1 from "@/public/assets/tshirst/c1.png";
+import plus from "@/public/assets/tshirst/plus.png";
+import minus from "@/public/assets/tshirst/minus.png";
+import fiveStart from "@/public/assets/new Arrivals/Five star.png";
+import fourhalfstar from "@/public/assets/new Arrivals/Four Half Star.png";
+import verified from "@/public/assets/dress/greentick.png";
+import filter from "@/public/assets/tshirst/color.png";
 
 import React from "react";
 import Image from "next/image";
-import Offer from "../offer/page";
-import Navbar from "../navbar/page";
-import Footer from "../footer/page";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -27,9 +24,9 @@ const poppins = Poppins({
 export default function Tshirts() {
   return (
     <>
-      <Offer />
-      <Navbar />
+
       <section
+        id="tshirts"
         className={`${poppins.className}  container mx-auto px-4 sm:px-6 lg:px-8 my-12`}
       >
         <p className="text-Text1 text-sm my-10 text-center sm:text-left">
@@ -226,7 +223,6 @@ export default function Tshirts() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

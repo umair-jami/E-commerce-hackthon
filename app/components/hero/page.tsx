@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../../assets/hero/heroImg.png";
+import heroImg from "@/public/assets/hero/heroImg.png";
 import { Poppins } from "next/font/google";
 import Image from "next/image";
 

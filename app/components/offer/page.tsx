@@ -1,6 +1,6 @@
 import React from "react";
 import { Poppins } from "next/font/google";
-import cross from "../../assets/navphoto/cross.png";
+import cross from "@/public/assets/navphoto/cross.png";
 import Image from "next/image";
 
 const poppins = Poppins({

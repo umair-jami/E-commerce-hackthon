@@ -1,8 +1,8 @@
 import React from "react";
-import fiveStart from "../../assets/new Arrivals/Five star.png";
-import vector1 from "../../assets/dress/Vector 1.png";
-import vector from "../../assets/dress/Vector.png";
-import verified from "../../assets/dress/greentick.png";
+import fiveStart from "@/public/assets/new Arrivals/Five star.png";
+import vector1 from "@/public/assets/dress/Vector 1.png";
+import vector from "@/public/assets/dress/Vector.png";
+import verified from "@/public/assets/dress/greentick.png";
 import { Poppins } from "next/font/google";
 import Image from "next/image";
 

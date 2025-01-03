@@ -1,9 +1,9 @@
 import React from "react";
-import b1 from "../../assets/brands/CK.png";
-import b2 from "../../assets/brands/GUCCI.png";
-import b3 from "../../assets/brands/ZARA.png";
-import b4 from "../../assets/brands/versace.png";
-import b5 from "../../assets/brands/CK.png";
+import b1 from "@/public/assets/brands/CK.png";
+import b2 from "@/public/assets/brands/GUCCI.png";
+import b3 from "@/public/assets/brands/ZARA.png";
+import b4 from "@/public/assets/brands/versace.png";
+import b5 from "@/public/assets/brands/CK.png";
 import Image from "next/image";
 
 export default function Brands() {

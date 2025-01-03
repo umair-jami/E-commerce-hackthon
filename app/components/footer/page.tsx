@@ -1,14 +1,14 @@
 import React from "react";
-import fb from "../../assets/footer/fb.png";
-import x from "../../assets/footer/x.png";
-import insta from "../../assets/footer/insta.png";
-import github from "../../assets/footer/github.png";
-import gpay from "../../assets/footer/g pay.png";
-import applepay from "../../assets/footer/applypay.png";
-import pypal from "../../assets/footer/paypal.png";
-import master from "../../assets/footer/master.png";
-import visa from "../../assets/footer/visa.png";
-import email from "../../assets/footer/email.png";
+import fb from "@/public/assets/footer/fb.png";
+import x from "@/public/assets/footer/x.png";
+import insta from "@/public/assets/footer/insta.png";
+import github from "@/public/assets/footer/github.png";
+import gpay from "@/public/assets/footer/g pay.png";
+import applepay from "@/public/assets/footer/applypay.png";
+import pypal from "@/public/assets/footer/paypal.png";
+import master from "@/public/assets/footer/master.png";
+import visa from "@/public/assets/footer/visa.png";
+import email from "@/public/assets/footer/email.png";
 
 import Image from "next/image";
 import { Poppins } from "next/font/google";

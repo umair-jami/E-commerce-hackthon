@@ -1,15 +1,12 @@
 import { Poppins } from "next/font/google";
 import Image from "next/image";
-import cart1 from "../../assets/cart/cart1.png";
-import cart2 from "../../assets/cart/cart2.png";
-import cart3 from "../../assets/cart/cart3.png";
-import delte from "../../assets/cart/delete.png";
-import plus from "../../assets/tshirst/plus.png";
-import minus from "../../assets/tshirst/minus.png";
+import cart1 from "@/public/assets/cart/cart1.png";
+import cart2 from "@/public/assets/cart/cart2.png";
+import cart3 from "@/public/assets/cart/cart3.png";
+import delte from "@/public/assets/cart/delete.png";
+import plus from "@/public/assets/tshirst/plus.png";
+import minus from "@/public/assets/tshirst/minus.png";
 import React from "react";
-import Offer from "../offer/page";
-import Navbar from "../navbar/page";
-import Footer from "../footer/page";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -19,9 +16,9 @@ const poppins = Poppins({
 export default function Cart() {
   return (
     <>
-      <Offer />
-      <Navbar />
+
       <section
+        id="cart"
         className={`${poppins.className} container mx-auto px-4 sm:px-6 lg:px-8 my-12`}
       >
         <p className="text-Text1 text-sm my-10 text-center sm:text-left">
@@ -207,7 +204,6 @@ export default function Cart() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }
